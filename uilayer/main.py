@@ -3,11 +3,23 @@ import class from entity layer and validation layer
 
 """
 def main():
-    #read data for one table as file given in google drive
-    #https://drive.google.com/drive/folders/1XHpcSDzSl9cCYFwC0IBsVLJMFwhi5bAA?usp=sharing
-    #read each row create object from entity layer 
-    #append each record in list
-    #save the list into dataset using validation layer
     pass
+    """
+    create empty list
+    read employee csv file
+
+    iter each employee records from file
+        create object of employee using employee class defined in entity layers
+        add each object in list
+
+    once loop is done
+
+    initialize object of employee_val file
+    call save function on employee val class
+
+    follow same approach for each table
+
+    check employee_val file in validation_layer
+    """
 if __name__ == '__main__':
     main()
