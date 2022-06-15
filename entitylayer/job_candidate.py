@@ -1,0 +1,2 @@
+class JobCandidate:
+    pass
